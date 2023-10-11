@@ -3,7 +3,7 @@ import { useRef, useState } from 'react';
 import Resolution from '@unstoppabledomains/resolution';
 
 const Home = () => {
-  const [domain, setDomain] = useState<string>('did:ud:');
+  const [domain, setDomain] = useState<string>('');
   const [resolvedAddress, setResolvedAddress] = useState<string | null>(null);
 
   const [copySuccess, setCopySuccess] = useState<string>('');
